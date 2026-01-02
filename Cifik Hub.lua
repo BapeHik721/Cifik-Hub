@@ -209,7 +209,10 @@ GuardsTab:AddToggle("AutoTaser", {
     Title = "Auto Taser",
     Default = false,
     Callback = function(v)
-        -- сюда потом нормальную логику
+        Fluent:Notify({
+            Title = "Coming Soon..",
+            Duration = 3
+        })
     end
 })
 
@@ -217,7 +220,10 @@ GuardsTab:AddToggle("AutoArrest", {
     Title = "Auto Arrest",
     Default = false,
     Callback = function(v)
-        -- и сюда тоже
+        Fluent:Notify({
+            Title = "Coming Soon..",
+            Duration = 3
+        })
     end
 })
 
@@ -268,6 +274,6 @@ TeleportTab:AddButton({
 
 Fluent:Notify({
     Title = "Loaded",
-    Content = "Fluent UI успешно загружен",
+    Content = "Cifik Hub Loaded",
     Duration = 3
 })
