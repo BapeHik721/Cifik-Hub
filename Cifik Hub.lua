@@ -205,28 +205,6 @@ InmatesTab:AddToggle("AutoEscapeSafe", {
 -- GUARDS (заглушки)
 --====================================================
 
-GuardsTab:AddToggle("AutoTaser", {
-    Title = "Auto Taser",
-    Default = false,
-    Callback = function(v)
-        Fluent:Notify({
-            Title = "Coming Soon..",
-            Duration = 3
-        })
-    end
-})
-
-GuardsTab:AddToggle("AutoArrest", {
-    Title = "Auto Arrest",
-    Default = false,
-    Callback = function(v)
-        Fluent:Notify({
-            Title = "Coming Soon..",
-            Duration = 3
-        })
-    end
-})
-
 
 --====================================================
 -- Teleports
